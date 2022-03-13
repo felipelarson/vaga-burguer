@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #fbfafa;
+  --shadow-gray: #dbdbdb;
+  --white: #ffffff;
+  --black-text: #0e0d2a;
+  --orange: #e39b00;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--light-gray);
+  position: relative;
+  overflow: hidden;
+}
+/* .circle-bottom,
+.circle-right,
+.circle-top {
+  background-color: var(--white);
+  border-radius: 50%;
+  box-shadow: 0 0 50px var(--shadow-gray);
+  position: absolute;
+  z-index: 0;
+}
+.circle-right {
+  width: 87.563rem;
+  height: 87.563rem;
+  left: 905px;
+  top: -159px;
+}
+
+.circle-top {
+  width: 53.438rem;
+  height: 53.438rem;
+  left: -180px;
+  top: -715px;
+}
+
+.circle-bottom {
+  width: 38.438rem;
+  height: 38.438rem;
+  left: -324px;
+  bottom: -30rem;
+} */
+
+.children {
+  z-index: 1;
+}
