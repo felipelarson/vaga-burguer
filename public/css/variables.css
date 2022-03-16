@@ -1,0 +1,12 @@
+:root {
+  --font-modak: "Modak", cursive;
+  --font-roboto: "Roboto", sans-serif;
+  --font-archivo: "Archivo Black", sans-serif;
+  --primary: #000000;
+  --secondary: #e39b00;
+  --size-main-title: 77px;
+  --size-paragraph: 17px;
+  --size-small-title: 25px;
+  --size-burguer: 235px;
+  --size-food: 146px;
+}
