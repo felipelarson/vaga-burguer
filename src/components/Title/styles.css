@@ -1,3 +1,9 @@
+.title {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
 .top-title {
   font-size: 28px;
   font-family: var(--font-roboto);
@@ -9,12 +15,15 @@
   font-family: var(--font-modak);
   font-size: var(--size-main-title);
   font-weight: normal;
+  margin: 21px 0px;
+  line-height: 60px;
 }
 
 .subtitle {
   font-family: var(--font-roboto);
   font-weight: lighter;
   font-size: var(--size-paragraph);
+  margin-bottom: 21px;
 }
 
 .button-start {
