@@ -1,11 +1,32 @@
+.position-about {
+  position: fixed;
+  bottom: 17%;
+  left: 10%;
+}
 .about {
   color: var(--secondary);
   font-size: var(--size-small-title);
   font-family: var(--font-roboto);
+  margin-bottom: 20px;
 }
-.about::before {
+.position-about::before {
   content: "";
-  height: 2px;
-  width: 100px;
+  height: 4px;
+  width: 150px;
+  position: fixed;
+  left: 0;
+  bottom: 25.5%;
   background-color: var(--primary);
+}
+
+.subtitle-about {
+  font-family: var(--font-roboto);
+  font-weight: lighter;
+  font-size: --size-paragraph;
+}
+
+@media only screen and (max-width: 768px) {
+  .position-about {
+    display: none;
+  }
 }

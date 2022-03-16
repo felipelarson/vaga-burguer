@@ -1,0 +1,40 @@
+.position-image {
+  position: fixed;
+  right: 12%;
+  top: 25%;
+  width: 27%;
+  z-index: 3;
+}
+
+.subtitle-burger {
+  font-size: 50px;
+  line-height: 65px;
+  color: var(--primary);
+  font-weight: normal;
+  font-family: "Modak";
+  text-align: center;
+}
+
+.subtitle-burger > span {
+  color: var(--secondary);
+}
+
+/* .img-burger {
+  width: 168px;
+  height: 200px;
+} */
+
+@media only screen and (max-width: 768px) {
+  .position-image {
+    width: 95%;
+    right: 4%;
+    top: 36%;
+  }
+  .subtitle-burger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+}

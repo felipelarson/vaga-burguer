@@ -1,0 +1,14 @@
+.burger {
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  font-size: 14.688rem;
+  line-height: 310px;
+  color: var(--white);
+  font-weight: 400;
+  font-family: var(--font-archivo);
+  text-align: center;
+  -webkit-text-stroke: 1px var(--gray);
+  text-transform: uppercase;
+  z-index: 2;
+}

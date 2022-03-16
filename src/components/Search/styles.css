@@ -1,3 +1,8 @@
+.main-search {
+  z-index: 2;
+  position: relative;
+  margin-right: 160px;
+}
 .btn-search {
   width: 379px;
   height: 57px;
@@ -8,4 +13,22 @@
   border: none;
   font-family: var(--font-roboto);
   font-weight: lighter;
+}
+
+.btn-search + button {
+  position: absolute;
+  top: 50%;
+  right: -4%;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  width: 50px;
+  border: none;
+  background: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-search {
+    display: none;
+  }
 }

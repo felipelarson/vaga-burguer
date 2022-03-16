@@ -1,3 +1,7 @@
 .brand {
   width: 168px;
+  z-index: 2;
+  position: fixed;
+  top: 4%;
+  left: 9%;
 }

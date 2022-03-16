@@ -1,0 +1,19 @@
+.food {
+  position: fixed;
+  bottom: 27%;
+  left: 28%;
+  font-size: var(--size-food);
+  line-height: 65px;
+  color: transparent;
+  font-weight: normal;
+  font-family: var(--font-archivo);
+  -webkit-text-stroke: 1px var(--gray);
+  text-transform: uppercase;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .food {
+    display: none;
+  }
+}
