@@ -19,23 +19,17 @@ export const ImageBurguer = () => {
         showIndicators={false}>
         <figure>
           <img src={Burger} alt="Burguer" className="img-burger" />
-          <figcaption className="subtitle-burger">
-            Spicy Beef <span>Burger</span>
-          </figcaption>
         </figure>
         <figure>
-          <img src={BurgerOne} alt="Burguer" className="img-burger" />
-          <figcaption className="subtitle-burger">
-            Spicy Beef <span>Burger</span>
-          </figcaption>
+          <img src={BurgerOne} alt="Burguer" className="img-burger " />
         </figure>
         <figure>
           <img src={BurgerTwo} alt="Burguer" className="img-burger" />
-          <figcaption className="subtitle-burger">
-            Spicy Beef <span>Burger</span>
-          </figcaption>
         </figure>
       </Carousel>
+      <h5 className="subtitle-burger">
+        Spicy Beef <span>Burger</span>
+      </h5>
     </div>
   );
 };

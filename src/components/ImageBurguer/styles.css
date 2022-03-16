@@ -13,6 +13,7 @@
   font-weight: normal;
   font-family: "Modak";
   text-align: center;
+  z-index: 3;
 }
 
 .subtitle-burger > span {
@@ -30,6 +31,7 @@
     right: 4%;
     top: 36%;
   }
+
   .subtitle-burger {
     display: flex;
     justify-content: center;
