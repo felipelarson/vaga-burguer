@@ -2,9 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  /* width: 400px; */
+  font-size: var(--size-small-title);
+  font-family: var(--font-roboto);
+  font-weight: lighter;
 }
 
 .menu > li {
   list-style: none;
+  margin-left: 30px;
 }
