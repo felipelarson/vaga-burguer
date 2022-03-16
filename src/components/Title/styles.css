@@ -1,0 +1,29 @@
+.top-title {
+  font-size: 28px;
+  font-family: var(--font-roboto);
+  font-weight: lighter;
+  color: var(--gray);
+}
+
+.main-title {
+  font-family: var(--font-modak);
+  font-size: var(--size-main-title);
+  font-weight: normal;
+}
+
+.subtitle {
+  font-family: var(--font-roboto);
+  font-weight: lighter;
+  font-size: var(--size-paragraph);
+}
+
+.button-start {
+  font-family: var(--font-roboto);
+  font-weight: lighter;
+  font-size: 21px;
+  background-color: transparent;
+  padding: 0.5rem 1.6rem;
+  border-radius: 30px;
+  border: 1px solid black;
+  letter-spacing: 2px;
+}
