@@ -1,0 +1,11 @@
+.about {
+  color: var(--secondary);
+  font-size: var(--size-small-title);
+  font-family: var(--font-roboto);
+}
+.about::before {
+  content: "";
+  height: 2px;
+  width: 100px;
+  background-color: var(--primary);
+}
