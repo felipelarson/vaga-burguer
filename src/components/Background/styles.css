@@ -19,7 +19,7 @@
   position: relative;
   overflow: hidden;
 }
-/* .circle-bottom,
+.circle-bottom,
 .circle-right,
 .circle-top {
   background-color: var(--white);
@@ -47,7 +47,7 @@
   height: 38.438rem;
   left: -324px;
   bottom: -30rem;
-} */
+}
 
 .children {
   z-index: 1;
