@@ -1,0 +1,32 @@
+.menu-mobile {
+  background-color: red;
+  height: 75%;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  padding: 2rem;
+  list-style: none;
+  line-height: 3;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 170px 0 0 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-mobile > li {
+  color: white;
+  cursor: pointer;
+}
+
+.menu-mobile > li:hover {
+  color: #cecece;
+  cursor: pointer;
+}
+
+.menu-mobile > li::after {
+  width: 100px;
+  color: #cecece;
+  height: 2px;
+}
